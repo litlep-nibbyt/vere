@@ -2139,6 +2139,7 @@ static c3_c* _k140_ha[] = {
 
 /* new jets
 */
+  static u3j_harm _139_two__by_val_a[] = {{".2", u3wdb_val, c3y}, {}};
   static u3j_harm _139_hex_json_de_a[] = {{".2", u3we_json_de}, {}};
   static u3j_harm _139_hex_json_en_a[] = {{".2", u3we_json_en}, {}};
 static u3j_core _139_hex_json_d[] =
@@ -2367,6 +2368,7 @@ static u3j_core _a50_two__by_d[] =
     { "del", 7, _140_two__by_del_a, 0, _140_two__by_del_ha },
     { "get", 7, _140_two__by_get_a, 0, _140_two__by_get_ha },
     { "has", 7, _140_two__by_has_a, 0, _140_two__by_has_ha },
+    { "val", 7, _139_two__by_val_a, 0, no_hashes },
     { "put", 7, _140_two__by_put_a, 0, _140_two__by_put_ha },
     {}
   };

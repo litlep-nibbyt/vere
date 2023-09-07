@@ -91,6 +91,7 @@
     u3_noun u3qdb_get(u3_noun, u3_noun);
     u3_noun u3qdb_has(u3_noun, u3_noun);
     u3_noun u3qdb_int(u3_noun, u3_noun);
+    u3_noun u3qdb_val(u3_noun);
     u3_noun u3qdb_key(u3_noun);
     u3_noun u3qdb_put(u3_noun, u3_noun, u3_noun);
     u3_noun u3qdb_run(u3_noun, u3_noun);
